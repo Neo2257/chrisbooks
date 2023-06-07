@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inria Serif", serif;
+  background-color: #f5e9db;
+}
+.header {
+  border-top: 1rem solid #f5e9db;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.425),
+      rgba(0, 0, 0, 0.342)
+    ),
+    url(/img/chris-book-img/background-books.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+.header-h1 {
+  font-size: 6.8rem;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.8rem;
+  width: 62%;
+}
+.header-p {
+  font-size: 2.4rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.6rem;
+  margin-top: 2rem;
+}
+.button-more {
+  padding: 1rem 2.6rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border: none;
+  margin-top: 10rem;
+  font-family: "Inria Serif", serif;
+}
+.button-more:hover {
+  background-color: #000;
+  color: #fff;
+}
+.all-space {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/**/
+.main-img-books {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+.img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.4rem;
+}
+.img-content {
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.4s;
+  position: relative;
+}
+.img-content:hover {
+  transform: scale(0.9);
+}
+.img-books {
+  width: 100%;
+  height: 50%;
+}
+.img-h1 {
+  font-size: 2rem;
+  padding: 2rem;
+}
+.img-p {
+  font-size: 1.6rem;
+  padding: 0 2rem;
+  line-height: 1.4;
+}
+.img-now {
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+/**/
+.benifits-main {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+.benifits-img-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
+}
+.benifits-imgs {
+  width: 100%;
+}
+.benifits-h1 {
+  font-size: 2rem;
+}
+.benifits-p {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
